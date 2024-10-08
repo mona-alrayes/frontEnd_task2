@@ -1,0 +1,233 @@
+html {
+    scroll-behavior: smooth;
+}
+body{
+    margin:0;
+    padding:0;
+}
+/* Begin hero Section Css */
+.hero , .plans{
+    height:800px;
+}
+.nav-bar{
+    height:50px;
+    background-color:#252528 ;
+}
+.nav-bar ul{
+    margin: 0;
+    padding-top: 15px;
+    list-style-type:none;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+}
+.nav-bar a{
+    color:white;
+    text-decoration:none;
+    padding:15px;
+    margin-right:20px;
+}
+.landing-page{
+    background-image: url(../assets/images/20240709_university_03.jpg);
+    background-size: cover;
+    height:750px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.landing-page h1{
+    color:white;
+    font-size:50px;
+}
+/* End hero Section Css */
+
+/* Begin About Section Css */
+
+.about-us{
+    margin:0 auto;
+    height:600px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.about-us h2{
+    text-align:center;
+    font-size: 40px;
+}
+.about-us p{
+    text-align: center;
+    font-size:20px;
+}
+
+/* End About Section Css */
+
+/* Begin Services Section Css */
+
+.our-services,
+.specializations , 
+.our-teachers ,
+.plans{
+    margin:0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:50px;
+}
+.our-services,
+.specializations , 
+.our-teachers {
+    height:600px;
+
+}
+.our-services ,
+.our-teachers{
+    background-color:#fbd4bb;
+}
+.container{
+    height:auto;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap:20px;
+}
+
+.our-services h2 ,
+.our-teachers h2 ,
+.specializations h2 ,
+.plans h2{
+    text-align:center;
+    font-size: 40px;
+    margin: 0;
+}
+.service-title ,
+.specialization-title ,
+.teacher-name{
+    text-align:center;
+    height:auto;
+    width:auto;
+    padding:10px;
+    margin:40px;
+}
+.service-title h3 ,
+.specialization-title h3 ,
+.teacher-name h3 ,
+.plan-title h3 {
+    font-size: 30px;
+    font-weight: 800;
+}
+.service-title p ,
+.specialization-title p 
+.teacher-name p ,
+.plan-title .price {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+/* End Services Section Css */
+
+/*begin specializations section*/
+.specializations{
+    margin:0;
+    height:600px;
+}
+/* end specializations section*/
+
+/*start our-teachers section*/
+
+.teacher-name img{
+    height:100px;
+    width:150px;
+}
+/*end our-teachers section*/
+
+/* begin plans section*/
+
+.plan-title{
+    background-color: #f5e7d5;
+    padding:20px;
+    border-radius: 3%;
+}
+.plan-title img{
+    height:150px;
+    width:250px;
+}
+.plan-title .price{
+    background-color:#f2e87c;
+    padding:0px 5px;
+    border: 1px solid #fbd4bb;
+    border-radius: 3%;
+}
+.plan-title .price ul{
+    list-style: none;
+    padding: 0;
+    padding-left: 5px;
+}
+/*end plans section*/
+
+/* begin footer section */
+
+.footer{
+    background-color:#fbd4bb;
+    height:750px;
+    color:#252528;
+    padding:20px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.footer h2{
+    font-size: 40px;
+}
+.footer p{
+    font-size: 20px;
+    font-weight: bold;
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width:500px;
+}
+form input{
+    width: 500px;
+    height:30px;
+}
+form textarea{
+    width:500px;
+    height:100px;
+    margin-bottom: 20px;
+}
+
+form .submit{
+  width:50%;
+  height:35px;
+  font-size: 15px;
+  background-color:#252528;
+  border-radius: 4%;
+  color:white;
+}
+/* end footer section */
+
+/* begin footer*/
+footer{
+    height:50px;
+    background-color:#252528 ;
+}
+footer ul{
+    margin: 0;
+    padding-top: 15px;
+    list-style-type:none;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+footer a{
+    color:white;
+    text-decoration:none;
+    padding:15px;
+    margin-right:20px;
+}
+/*end footer*/
